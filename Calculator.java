@@ -1,6 +1,6 @@
 public class Calculator {
 
-  //Calculator methos
+  // Calculator methos
   public int mod(int a, int b) {
 
     int modResult = a % b;
@@ -38,18 +38,18 @@ public class Calculator {
     return addResult;
   }
 
-  // constructor method 
+  // constructor method
   public Calculator() {
 
   }
-  //main with test cases
+
+  // main with test cases
   public static void main(String[] args) {
 
     Calculator myCalculator = new Calculator();
 
-    System.out.println(myCalculator.add(5,7));
-    System.out.println(myCalculator.subtract(1111,7));
-
+    System.out.println(myCalculator.add(5, 7));
+    System.out.println(myCalculator.subtract(1111, 7));
 
   }
 
