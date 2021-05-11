@@ -32,7 +32,9 @@ public class CarLoan {
 
   public static void main(String[] args) {
 
+    //instance of new car loan
     CarLoan myCarloan = new CarLoan();
+    //run method;
     myCarloan.checkLoanValidity();
   }
 
