@@ -29,6 +29,11 @@ public class Playlist {
     desertIslandPlaylist.set(indexOfSwap2, "c");
     System.out.println(desertIslandPlaylist);
 
+    String tempA = "a";
+    desertIslandPlaylist.set(indexOfSwap2, tempA);
+    System.out.println(desertIslandPlaylist);
+
+
   }
 
 }
