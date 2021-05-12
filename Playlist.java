@@ -10,6 +10,23 @@ public class Playlist {
     desertIslandPlaylist.add("c");
     desertIslandPlaylist.add("d");
     desertIslandPlaylist.add("e");
+    desertIslandPlaylist.add("f");
+    desertIslandPlaylist.add("z");
+
+    System.out.println(desertIslandPlaylist);
+
+    desertIslandPlaylist.remove("e");
+    desertIslandPlaylist.remove("a");
+    desertIslandPlaylist.remove("b");
+    System.out.println(desertIslandPlaylist);
+
+    // swamp postions of items; swap 0 and 3
+
+    // get indicies
+    int indexOfSwap1 = desertIslandPlaylist.indexOf("c");
+    int indexOfSwap2 = desertIslandPlaylist.indexOf("z");
+    desertIslandPlaylist.set(indexOfSwap1, "z");
+    desertIslandPlaylist.set(indexOfSwap2, "c");
     System.out.println(desertIslandPlaylist);
 
   }
